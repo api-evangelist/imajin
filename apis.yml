@@ -1,7 +1,14 @@
 aid: imajin
 name: Imajin
-description: Imajin is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Imajin is an Indonesian online manufacturing marketplace (the "Indonesia
+  Manufacturing Hub") that connects buyers with vetted manufacturers and machine shops
+  through a project-based workflow: post a project, receive quotes, and track production
+  through to delivery. It brokers rapid 3D printing and prototyping, high-precision
+  mold and die making, SPM and custom part fabrication, mass production (stamping,
+  plastics, and fabrication), CNC milling and turning at machining centers, and broader
+  manufacturing projects. The platform offers an instant-quote tool, real-time project
+  notifications, integrated company profiles, team and project management, and up-front
+  payment handling for suppliers. Imajin is backed by 500 Global.'
 url: https://raw.githubusercontent.com/api-evangelist/imajin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,33 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://imajinapp.s3.ap-southeast-1.amazonaws.com/v2/assets/images/Meta+Img.png
 tags:
 - Company
+- Manufacturing
+- Marketplace
+- 3D Printing
+- Prototyping
+- CNC Machining
+- Mold and Die
+- Mass Production
+- Fabrication
+- Indonesia
+- B2B
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,32 @@ maintainers:
 common:
 - type: Website
   url: https://imajin.id
+- type: About
+  url: https://imajin.id/about
+- type: Blog
+  url: https://www.blog.imajin.id/
+- type: Support
+  url: https://imajin.id/help-center
+- type: HelpCenter
+  url: https://imajin.id/help-center/faq
+- type: SignUp
+  url: https://imajin.id/register
+- type: Login
+  url: https://imajin.id/login
+- type: TermsOfService
+  url: https://imajin.id/terms-and-condition
+- type: LinkedIn
+  url: https://www.linkedin.com/company/imajinmanufacture/
+- type: YouTube
+  url: https://www.youtube.com/@imajinmanufacturing
+- type: Instagram
+  url: https://www.instagram.com/imajin.id/
+- type: Facebook
+  url: https://www.facebook.com/imajin.id/
+- type: DomainSecurity
+  url: security/imajin-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
